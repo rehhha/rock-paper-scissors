@@ -1,0 +1,113 @@
+html {
+  font-family: 'Comic Sans', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.footer {
+  width: 80vw;
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer > p {
+  margin: 0;
+  padding-top: 16px;
+  font-size: 18px;
+}
+
+.top-border {
+  width: 100%;
+  height: 0;
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.player-coices {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rps {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.weapon {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: center;
+  border: 2px solid green;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px green;
+  transition: all .2s ease-in-out; 
+}
+
+.weapon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.score {
+  justify-content: center;
+  gap: 16px;
+}
+
+button {
+
+  width: 200px;
+  height: 60px;
+  border: 4px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  transition: all .2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
